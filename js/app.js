@@ -70,7 +70,7 @@ var prevNext = function(prev ) {
 
   //if out of index reset
   if ($index < 0) { $index = $galleryLength-1;}
-  if ($index > 15) { $index = 0; }
+  if ($index > 11) { $index = 0; }
 
   //Grab the element by index and then get the link
   var newImgSelected = $("#imageGallery li").get($index).getElementsByTagName("a");
